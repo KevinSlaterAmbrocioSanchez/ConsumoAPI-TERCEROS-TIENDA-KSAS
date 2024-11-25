@@ -1,0 +1,116 @@
+
+/* Barra lateral */
+.sidenav-content {
+  background-color: #1e88e5; /* Azul oscuro */
+  color: white;
+  height: 100%;
+  padding: 16px;
+}
+
+.sidenav-content h2 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.sidenav-content p {
+  font-size: 14px;
+  margin-bottom: 16px;
+}
+
+/* Lista de navegación */
+mat-nav-list {
+  margin-top: 20px;
+}
+
+mat-list-item {
+  color: white;
+}
+
+mat-list-item:hover {
+  background-color: rgba(255, 255, 255, 0.1); /* Fondo ligeramente más claro al pasar el mouse */
+}
+
+/* Contenido principal */
+mat-sidenav-content {
+  background-color: #f5f5f5; /* Gris claro */
+}
+
+.content {
+  padding: 24px;
+}
+
+/* Barra de herramientas */
+mat-toolbar {
+  background-color: #145c9a; /* Azul oscuro */
+  color: white;
+}
+
+.profile-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.profile-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #ddd;
+}
+
+.profile-name {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+}
+
+.profile-logout {
+  font-size: 14px;
+}
+/* General navbar styles */
+.navbar {
+  background-color: #2c3e50;
+  color: #ecf0f1;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid #34495e;
+}
+
+/* Profile container styles */
+.profile-container {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+/* Avatar styles */
+.profile-avatar {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #ecf0f1;
+}
+
+/* Profile name styles */
+.profile-name {
+  font-size: 16px;
+  font-weight: bold;
+  color: #ecf0f1;
+}
+
+/* Logout button styles */
+.profile-logout {
+  font-size: 14px;
+  padding: 5px 10px;
+  border-radius: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.profile-logout:hover {
+  background-color: #e74c3c;
+  color: #ffffff;
+  border-color: #e74c3c;
+}
